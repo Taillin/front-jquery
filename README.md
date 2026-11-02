@@ -1,8 +1,8 @@
 # Assignment 6: jQuery Portfolio Project
 
 ## Student Information
-**Name:** [Your Name]  
-**Group:** [Your Group]
+**Name:** Yermakov Ilya
+**Group:** IT-2503
 
 ## Project Overview
 This project demonstrates the use of jQuery for DOM manipulation, effects, and animations. It includes a complete portfolio website with interactive features.
@@ -17,7 +17,7 @@ This project demonstrates the use of jQuery for DOM manipulation, effects, and a
 - Console message "jQuery is ready!" displayed on page load
 
 **Screenshot:**
-[Add screenshot showing console message]
+<img width="406" height="50" alt="image" src="https://github.com/user-attachments/assets/ccc30d4b-cda2-42c6-ade8-766ad6382d8c" />
 
 #### Task 1: Selectors & CSS
 - Portfolio page with name, headline, and introduction
@@ -29,10 +29,10 @@ This project demonstrates the use of jQuery for DOM manipulation, effects, and a
 - Light/Dark theme switcher implemented
 
 **Screenshot:**
-[Add screenshot showing light theme]
+<img width="957" height="503" alt="image" src="https://github.com/user-attachments/assets/b679bab0-733e-48aa-86e2-a784446726da" />
 
 **Screenshot:**
-[Add screenshot showing dark theme]
+<img width="959" height="494" alt="image" src="https://github.com/user-attachments/assets/715ec315-8fa2-49dd-ad47-558bf9500d62" />
 
 ### Part 2: jQuery Effects
 
@@ -43,10 +43,11 @@ This project demonstrates the use of jQuery for DOM manipulation, effects, and a
 - Visibility control for status and fun facts
 
 **Screenshot:**
-[Add screenshot showing visible content]
+<img width="650" height="194" alt="image" src="https://github.com/user-attachments/assets/00e34b84-0110-4cc2-bb5c-b2d75f8128e9" />
+
 
 **Screenshot:**
-[Add screenshot showing hidden content]
+<img width="654" height="251" alt="image" src="https://github.com/user-attachments/assets/5c6c14fd-cb74-4463-aad0-545aad70a90c" />
 
 #### Task 3: Fade Methods
 - Image gallery with two images (profile and hobby)
@@ -54,7 +55,8 @@ This project demonstrates the use of jQuery for DOM manipulation, effects, and a
 - Smooth fade effects using `.fadeIn()`, `.fadeOut()`, `.fadeToggle()`
 
 **Screenshot:**
-[Add screenshot showing gallery with fade effects]
+<img width="644" height="283" alt="image" src="https://github.com/user-attachments/assets/ef938b2f-b60f-4bf3-a485-b46d4ee2d015" />
+
 
 #### Task 4: Slide Methods
 - Accordion with three sections:
@@ -65,10 +67,11 @@ This project demonstrates the use of jQuery for DOM manipulation, effects, and a
 - Smooth slide effects using `.slideToggle()`
 
 **Screenshot:**
-[Add screenshot showing collapsed accordion]
+<img width="651" height="394" alt="image" src="https://github.com/user-attachments/assets/ac1ef51d-618b-4b62-b4c1-809ce88788c1" />
+
 
 **Screenshot:**
-[Add screenshot showing expanded accordion item]
+<img width="656" height="101" alt="image" src="https://github.com/user-attachments/assets/b0ce24f3-2f36-4660-ba23-4b04a6014705" />
 
 ### Part 3: DOM Manipulation with jQuery
 
@@ -80,7 +83,7 @@ This project demonstrates the use of jQuery for DOM manipulation, effects, and a
 - Empty skill validation implemented
 
 **Screenshot:**
-[Add screenshot showing skills list manipulation]
+<img width="641" height="363" alt="image" src="https://github.com/user-attachments/assets/c24e8183-7845-48bb-b393-967749625175" />
 
 #### Task 6: Modifying Attributes
 - Social media link (GitHub)
@@ -89,7 +92,7 @@ This project demonstrates the use of jQuery for DOM manipulation, effects, and a
 - Toggle between GitHub and LinkedIn
 
 **Screenshot:**
-[Add screenshot showing link attribute change]
+<img width="649" height="148" alt="image" src="https://github.com/user-attachments/assets/972ef964-0e38-4d3b-a2c3-d8a3b31da44b" />
 
 #### Task 7: Form Interaction
 - Contact form with Name and Email inputs
@@ -97,7 +100,7 @@ This project demonstrates the use of jQuery for DOM manipulation, effects, and a
 - `.val()` and `.text()` methods for real-time updates
 
 **Screenshot:**
-[Add screenshot showing form interaction]
+<img width="635" height="284" alt="image" src="https://github.com/user-attachments/assets/b8b32713-9d49-4b46-ae09-c9b83d4c00bb" />
 
 ### Part 4: Animations
 
@@ -113,12 +116,6 @@ This project demonstrates the use of jQuery for DOM manipulation, effects, and a
 - `.animate()` method to grow bars
 - Toggle functionality to reset to 0%
 
-**Screenshot:**
-[Add screenshot showing initial state (0% width)]
-
-**Screenshot:**
-[Add screenshot showing animated state (full width)]
-
 ## Work Process Summary
 
 1. **Project Setup:** Created HTML structure with all required sections and included jQuery CDN
@@ -127,24 +124,3 @@ This project demonstrates the use of jQuery for DOM manipulation, effects, and a
 4. **Testing:** Tested all interactive features for proper functionality
 5. **Validation:** Ensured empty skill validation and proper toggle states
 6. **Documentation:** Created comprehensive README with project details
-
-## Technologies Used
-- HTML5
-- CSS3
-- jQuery 3.7.1
-- Responsive Design
-
-## Features
-- Clean and simple student-friendly code
-- No comments in code files
-- Responsive layout
-- Dark/Light theme support
-- Interactive animations and effects
-- Form validation
-- Smooth transitions
-
-## GitHub Repository
-[Add your GitHub repository link here]
-
-## GitHub Pages
-[Add your GitHub Pages link here]
