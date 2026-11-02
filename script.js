@@ -64,12 +64,12 @@ $(document).ready(function() {
     var linkToggle = false;
     $("#change-link").click(function() {
         if (!linkToggle) {
-            $("#social-link").attr("href", "https://linkedin.com");
+            $("#social-link").attr("href", "https://linkedin.cohttps://www.linkedin.com/in/ilya-yermakov-aa00573b0/m");
             $("#social-link").text("LinkedIn");
             $(this).text("Switch to GitHub");
             linkToggle = true;
         } else {
-            $("#social-link").attr("href", "https://github.com");
+            $("#social-link").attr("href", "https://github.com/Taillin");
             $("#social-link").text("GitHub");
             $(this).text("Switch to LinkedIn");
             linkToggle = false;
