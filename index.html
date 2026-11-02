@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - jQuery Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="main-heading">Ilya Ermakov</h1>
+            <p class="headline">Computer Science Student & Developer</p>
+            <p class="intro">Passionate programmer exploring web technologies and software development.</p>
+            <div class="theme-buttons">
+                <button id="light-theme">Light Theme</button>
+                <button id="dark-theme">Dark Theme</button>
+            </div>
+        </header>
+
+        <section class="profile">
+            <h2>About Me</h2>
+            <div class="bio">
+                <p>I'm Ilya Ermakov, a computer science student with a deep passion for programming. I enjoy solving complex problems through code and constantly learning new technologies.</p>
+                <p class="status">Currently mastering jQuery and front-end development!</p>
+                <p class="fun-facts">Fun facts: When I'm not coding, I'm watching Tarantino films, listening to The Smiths, or working on personal programming projects.</p>
+            </div>
+            <div class="visibility-buttons">
+                <button id="hide-btn">Hide</button>
+                <button id="show-btn">Show</button>
+                <button id="toggle-btn">Toggle</button>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>My Gallery</h2>
+            <div class="images">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=200&fit=crop" alt="Programming" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop" alt="Coding Setup" class="gallery-img">
+            </div>
+            <div class="fade-buttons">
+                <button id="fade-in">Fade In</button>
+                <button id="fade-out">Fade Out</button>
+                <button id="fade-toggle">Fade Toggle</button>
+            </div>
+        </section>
+
+        <section class="accordion">
+            <h2>My Favorites</h2>
+            <div class="accordion-item">
+                <h3 class="accordion-heading">My Favorite Music</h3>
+                <div class="accordion-panel">
+                    <p>The Smiths are my favorite band. Their melancholic lyrics and Morrissey's unique vocals combined with Johnny Marr's guitar work create timeless music that resonates with me deeply.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-heading">My Favorite Movie</h3>
+                <div class="accordion-panel">
+                    <p>Inglourious Basterds by Quentin Tarantino is my all-time favorite. The brilliant dialogue, intense scenes, and Christoph Waltz's unforgettable performance make it a masterpiece of cinema.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-heading">My Favorite Subject</h3>
+                <div class="accordion-panel">
+                    <p>Programming is my favorite subject. I love the logic, problem-solving challenges, and the ability to create functional solutions through code. It's both creative and analytical.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>My Technical Skills</h2>
+            <ul id="skills-list">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML & CSS</li>
+                <li>Git & GitHub</li>
+            </ul>
+            <div class="skill-input">
+                <input type="text" id="skill-input" placeholder="Enter a new skill">
+                <div class="skill-buttons">
+                    <button id="add-skill">Add Skill</button>
+                    <button id="prepend-skill">Prepend Skill</button>
+                    <button id="remove-skill">Remove Skill</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="social">
+            <h2>Connect With Me</h2>
+            <p>Find me on: <a href="https://github.com" id="social-link" target="_blank">GitHub</a></p>
+            <button id="change-link">Switch to LinkedIn</button>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Form</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name-input">Name:</label>
+                    <input type="text" id="name-input" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email-input">Email:</label>
+                    <input type="email" id="email-input" placeholder="Enter your email">
+                </div>
+            </form>
+            <div class="form-output">
+                <p>Name: <span id="name-output"></span></p>
+                <p>Email: <span id="email-output"></span></p>
+            </div>
+        </section>
+
+        <section class="skill-animation">
+            <h2>Skill Levels</h2>
+            <div class="skill-bars">
+                <div class="skill-item">
+                    <span class="skill-name">Python</span>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">HTML & CSS</span>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Problem Solving</span>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-width="90"></div>
+                    </div>
+                </div>
+            </div>
+            <button id="animate-skills">Animate My Skills</button>
+        </section>
+    </div>
+</body>
+</html>
